@@ -31,6 +31,7 @@ header{
   padding: 15px 0;
   color:white;
   width: 100%;
+  position: fixed;
 }
 
 header p {
@@ -45,7 +46,7 @@ section{
   width:100%;
    margin: 0 auto;
   
-  padding-top: 20px;
+  padding-top: 150px;
   align-items: center;
   
 }
@@ -61,6 +62,7 @@ section article {
   background-color: rgb(232, 84, 165);
 
 }
+
 
 section article:hover{
   box-shadow: 8px 8px 8px 8px;
@@ -86,7 +88,14 @@ section h2 {
   text-align: center;
 
 }
-.image{
-  width:150px;
+ div img{
+  
+  width: 330px; 
+  height: 230px; 
+  margin-left: 25px;
+  box-shadow: 3px 3px 3px 3px black;
 }
 
+div img:hover{
+   box-shadow: 10px 10px 10px 10px purple;
+}
