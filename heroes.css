@@ -99,7 +99,7 @@ section h2 {
 div img:hover{
    box-shadow: 10px 10px 10px 10px purple;
 }
-/*@media screen and (max-width: 720px){
+@media only screen and (max-device-width: 780px){
    section article {
      width: 60%;
      margin-left: 180px;
@@ -111,4 +111,4 @@ div img:hover{
     margin-left: 90px;
     margin-top: 50px;
    }
-}*/
+}
