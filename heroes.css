@@ -11,8 +11,12 @@ html {
 body {
   width: 100vw;
   margin: 0 auto;
- 
-  background-color: rgb(117, 6, 98);
+ background-image: url('https://wallpaperaccess.com/full/1135531.jpg');
+    
+   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  /*background-color: rgb(117, 6, 98);*/
 
 }
 
